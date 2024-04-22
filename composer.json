@@ -1,0 +1,28 @@
+{
+  "name": "mrkacmaz/laravel-ssp",
+  "description": "Process server-side processing (SSP) for an Eloquent model, supporting dynamic filtering, sorting, and pagination.",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "illuminate/database": "^8.0 || ^9.0",
+    "illuminate/http": "^8.0 || ^9.0",
+    "illuminate/support": "^8.0 || ^9.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mrkacmaz\\LaravelSsp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MrKacmaz",
+      "email": "alperen703.akm@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

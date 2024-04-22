@@ -1,0 +1,40 @@
+/vendor/
+/node_modules/
+
+# Laravel files
+/bootstrap/cache/*.php
+/storage/*.key
+/storage/framework/
+/storage/logs/
+/public/storage
+/public/hot
+
+# Environment
+.env
+.env.backup
+
+# Composer
+composer.lock
+/composer.phar
+
+# Editor
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package
+package-lock.json
+yarn-error.log
+
+# Other temp
+*.log
+*.cache
+*.tmp
+/tmp
+
+# PHP unit test
+/tests/_output/
+/tests/_support/_generated/
